@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash -x
 
 if [ -e $1/last_pack_release.out ]; then
   cat $1/last_pack_release.out
